@@ -1,8 +1,11 @@
-title: vida
-baseurl: "/vida"
+title: quiet misdreavus microblog
+name: quiet misdreavus microblog
+description: short-ish notes about day-to-day life as a quiet misdreavus
+baseurl: ""
+url: "https://micro.quietmisdreavus.net"
 
 # Fill this out to include author information in RSS/OpenGraph info
-author:
+author: QuietMisdreavus
 
 exclude: ["README.md"]
 
