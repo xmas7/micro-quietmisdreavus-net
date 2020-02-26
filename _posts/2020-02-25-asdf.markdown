@@ -1,8 +1,0 @@
----
-layout: post
-title: asdf
-description: this is a filler post to just put something there
-categories: self
----
-
-"hello world" is too passe.
