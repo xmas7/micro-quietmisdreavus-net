@@ -1,14 +1,8 @@
-vida (misdreavus fork)
----------
+# micro.quietmisdreavus.net
 
-This is a fork of the Jekyll theme [Vida], as used on [my website].
-Care has been taken to keep my modifications in line with the design of the original.
-Many thanks to [Alex Sun] for writing the original theme and keeping the design easy-to-read.
+this is effectively a clone of [quietmisdreavus.net], with a different color scheme and the intent
+to push smaller posts. i wanted to make a different site for it so that it would have a different
+RSS feed, and also so that i could experiment with different ways of posting than on the main blog.
+at this phase it's just an experiment, but i hope it goes places.
 
-[Vida]: https://github.com/syaning/vida
-[my website]: https://quietmisdreavus.net
-[Alex Sun]: https://github.com/syaning
-
-### License
-
-MIT
+[quietmisdreavus.net]: https://github.com/QuietMisdreavus/quietmisdreavus.net
