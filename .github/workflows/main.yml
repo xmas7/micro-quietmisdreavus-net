@@ -1,0 +1,28 @@
+name: CI
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout master
+      uses: actions/checkout@v2
+    - name: Install Ruby
+      uses: actions/setup-ruby@v1.0.0
+    - name: Install Jekyll
+      run: gem install jekyll
+    - name: Build website
+      run: jekyll build
+    - name: Deploy site to NFSN
+      uses: Pendect/action-rsyncer@v1.1.0
+      env:
+        DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
+      with:
+        flags: '-avzr --delete'
+        options: ''
+        ssh_options: ''
+        src: '_site/'
+        dest: 'psyshock73_microquietmisdreavus@ssh.phx.nearlyfreespeech.net:/home/public'
