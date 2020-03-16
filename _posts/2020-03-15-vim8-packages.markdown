@@ -16,10 +16,11 @@ but as i had upgraded all my Vim installations to version 8[^version], i could s
 [pathogen]: https://github.com/tpope/vim-pathogen
 [packages]: https://vimhelp.org/repeat.txt.html#packages
 
-[^version]: I hesitated using the Vim 8 packages support for a while because one of the systems i
-  was using my configuration with was stuck on Vim 7 in a situation where i couldn't upgrade it. Now
-  that i'm not using that system any more, all of my Vim installs have the native package support
-  available!
+[^version]:
+    I hesitated using the Vim 8 packages support for a while because one of the systems i
+    was using my configuration with was stuck on Vim 7 in a situation where i couldn't upgrade it. Now
+    that i'm not using that system any more, all of my Vim installs have the native package support
+    available!
 
 ## about vim plugins
 
@@ -29,9 +30,10 @@ like the `.vim`/`vimfiles`[^vimfiles] directory: `autoload/`, `ftplugin/`, `colo
 so on.  Initially, these were meant to be integrated into your own Vim configuration so that in the
 end you would create one assembled unit of Vim code.
 
-[^vimfiles]: On Windows, the Vim configuration directory is called `vimfiles`, which is why my
-  config repo is called that instead of `.vim`. As i'm occasionally an unapologetic Windows user, i
-  like to highlight this difference.
+[^vimfiles]:
+    On Windows, the Vim configuration directory is called `vimfiles`, which is why my
+    config repo is called that instead of `.vim`. As i'm occasionally an unapologetic Windows user, i
+    like to highlight this difference.
 
 Over time, as people created more and more things with Vim, many different ways of keeping these Vim
 extensions apart appeared[^managers]. The core idea of any of these is like this: Rather than
@@ -39,11 +41,12 @@ merging all these files/folders into your main Vim configuration, separate them 
 directories so they can be managed separately. You can also provide different ways of specifying
 what plugins you use, how they get loaded, how they get installed and updated, and so on.
 
-[^managers]: There are far more plugin managers than i expected! While writing this post, i tried to
-  find a list and saw [this Stack Exchange post][manager-post]. The individual answers have
-  different reasonings about what constitutes a "plugin manager" and what makes one better than
-  another, but suffice it to say that there are many ways to deal with using other people's scripts
-  in your Vim configuration!
+[^managers]:
+    There are far more plugin managers than i expected! While writing this post, i tried to
+    find a list and saw [this Stack Exchange post][manager-post]. The individual answers have
+    different reasonings about what constitutes a "plugin manager" and what makes one better than
+    another, but suffice it to say that there are many ways to deal with using other people's scripts
+    in your Vim configuration!
 
 [manager-post]: https://vi.stackexchange.com/questions/388/what-is-the-difference-between-the-vim-plugin-managers
 
