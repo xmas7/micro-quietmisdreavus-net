@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {% if page.layout == 'post' %}
         <link href="/feed.xml" type="application/rss+xml" rel="alternate" title="recent posts" />
+        <link href="/feed.{{ page.categories.first }}.xml" type="application/rss+xml" rel="alternate" title="recent '{{ page.categories.first }}' posts" />
         <meta property="og:title" content="{{ page.title }} | {{ site.title }}" />
         {% if page.description %}
             <meta property="og:description" content="{{ page.description | smartify }}" />
